@@ -21,10 +21,10 @@ const AboutPage = () => {
         <figure className="relative w-[330px] h-[400px] md:max-w-[350px] md:h-[450px] md:self-center md:flex-[4] mx-auto mb-6 md:mb-0">
           <Image
             src={Anu2}
-            alt="Anuoluwapo Michael-Ayeni's Image"
+            alt="Anuoluwapo Michael-Ayeni"
             priority
             fill
-            sizes="500vw"
+            // sizes="500vw"
             className="rounded-3xl md:rounded-s-none md:rounded-e-[40px]"
           />
         </figure>

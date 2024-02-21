@@ -27,6 +27,7 @@ import Egg1 from "@/assets/images/services/egg1.webp";
 import Egg2 from "@/assets/images/services/egg2.webp";
 import Egg_BG from "@/assets/images/services/egg_bg.webp";
 import Anu2 from "@/assets/images/anu-2.webp";
+import Building from "@/assets/images/building.webp";
 import AnuHome from "@/assets/images/anu-home.webp";
 import AnuStanding from "@/assets/images/anu-standing.webp";
 import MCE from "@/assets/images/MCE.webp";
@@ -41,6 +42,7 @@ import Vision from "@/assets/images/vision.webp";
 import Conversations from "@/assets/images/conversations.webp";
 import EYFS_Bootcamp from "@/assets/images/eyfs-bootcamp.webp";
 import Omowunmi from "@/assets/images/omo.webp";
+import NotFound from "@/assets/images/404.webp";
 
 export {
   Logo_White,
@@ -50,6 +52,8 @@ export {
   Conversations,
   EYFS_Bootcamp,
   Omowunmi,
+  Building,
+  NotFound,
   Collab,
   Integrity,
   EarlyYearsLogo,

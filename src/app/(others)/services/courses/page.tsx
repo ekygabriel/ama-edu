@@ -81,7 +81,7 @@ const CoursesPage = () => {
               </ul>
             </div>
             <div className="flex w-full justify-between absolute bottom-8 px-3 border-t pt-6">
-              <Button text="Take Course" href="#" />
+              <Button text="Take Course" href="/construction" />
               <b>$ 12.00</b>
             </div>
           </li>
