@@ -8,10 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        kumbh: ["var(--font-kumbh)", "sans-serif"],
+        redhat: ["var(--font-redhat)", "sans-serif"],
+      },
+      colors: {
+        yellow: {
+          light: "#FFF9E9",
+        },
+        purple: {
+          normal: "#C385D0",
+          dark: "#4C0253",
+          light: "#EBD6EF",
+          "light-2": "#7C4B87",
+        },
       },
     },
   },

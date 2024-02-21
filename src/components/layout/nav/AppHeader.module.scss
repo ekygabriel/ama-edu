@@ -1,0 +1,45 @@
+.Container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 67px;
+  position: fixed;
+  z-index: 3000;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.07);
+
+  @media screen and (max-width: 950px) {
+    padding: 10px;
+  }
+
+  .NavItems {
+    display: flex;
+    gap: 40px;
+    position: relative;
+
+    @media screen and (max-width: 650px) {
+      display: none;
+      pointer-events: none;
+      visibility: hidden;
+    }
+  }
+}
+
+@keyframes SlideDown {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes SlideRight {
+  0% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -2,32 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+p {
+  @apply font-kumbh font-light mb-[10px] leading-[22px];
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+h1,
+h2,
+h3,
+h4 {
+  @apply font-redhat;
+}
+
+h1 {
+  @apply text-6xl font-bold mb-10;
+}
+
+h2 {
+  @apply text-4xl font-extrabold mb-8;
+}
+h3 {
+  @apply text-3xl font-extrabold mb-3;
+}
+
+h4 {
+  @apply text-[24px] font-bold mb-3;
+}
+
+img {
+  width: auto;
+  object-fit: cover;
+}
+
+.OthersLayout {
+  animation: SlideRight 300ms ease;
+}
+
+@keyframes SlideRight {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+::-webkit-scrollbar {
+  width: 0.5rem;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+::-webkit-scrollbar-track {
+  background-color: #efefef;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-color: gray;
 }
