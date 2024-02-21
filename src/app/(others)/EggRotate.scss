@@ -1,0 +1,12 @@
+@keyframes spin {
+  0% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(390deg);
+  }
+}
+
+.EggBG {
+  animation: spin 6s linear infinite forwards;
+}
