@@ -43,12 +43,26 @@ import Conversations from "@/assets/images/conversations.webp";
 import EYFS_Bootcamp from "@/assets/images/eyfs-bootcamp.webp";
 import Omowunmi from "@/assets/images/omo.webp";
 import NotFound from "@/assets/images/404.webp";
+import Training1 from "@/assets/images/training-1.webp";
+import Training2 from "@/assets/images/training-2.webp";
+import Training3 from "@/assets/images/training-3.webp";
+import Training4 from "@/assets/images/training-4.webp";
+import Training5 from "@/assets/images/training-5.webp";
+import Danisa from "@/assets/images/dan.webp";
+import Ututo from "@/assets/images/utu.webp";
 
 export {
   Logo_White,
   BG_Colors,
   Bar_Vert,
   AnuHome,
+  Ututo,
+  Danisa,
+  Training1,
+  Training2,
+  Training3,
+  Training4,
+  Training5,
   Conversations,
   EYFS_Bootcamp,
   Omowunmi,

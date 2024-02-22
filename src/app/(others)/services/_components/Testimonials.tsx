@@ -1,21 +1,27 @@
-import { Anu1, Omowunmi, Quotes } from "@/assets";
+import { Anu1, Danisa, Omowunmi, Quotes, Ututo } from "@/assets";
 import TestimonialSlider from "./TestimonialSlider";
 import Image from "next/image";
 const data = [
   {
     id: "1",
     img: Omowunmi.src,
-    text: "I remember joining the early years learning mentorship community last year, with little or no idea about what early years was all about, I kept following every of the free whatsapp discussions and webinars and I personally loved that each of this session took me from the beginner stage to an intermediate stage, I wouldn't want to say advance but at least the stage the class took me gave me a better paying job in a more conducive setting , you needed to see me in my interview talking about the stages of early years and all, I sincerely didn't have to read for the interview because I believed what I got from the training sessions with Mrs Michael-Ayeni were best practices and to think they all came in for free🥲. I really appreciate Mrs Ayeni and can never forget this in a jiffy.",
+    text: "I joined the mentorship community last year, with little or no idea about what early years was all about, I kept following the WhatsApp discussions and webinars and I loved that each of session were enlightening. I was also able to get a better paying job in a more conducive setting. The confidence I had at the interview talking about the stages of development in the early years were all because of the training sessions with Mrs Michael-Ayeni and to think they all came in for free🥲. I really appreciate Mrs Ayeni and can never forget this in a jiffy. ",
+    author: "Miss Omowunmi",
+    place: "Member of Mentorship Community",
   },
   {
     id: "2",
-    img: Anu1.src,
-    text: "Early Years Learning Ng. has been a game-changer for my child's education. The personalized attention and innovative teaching methods have sparked a love for learning in my child that I had not seen before. The resources and guidance provided by their team are top-notch.",
+    img: Danisa.src,
+    text: "Mrs. Ayeni is a trained,  passionate, and seasoned Early Childhood Educator. I had the opportunity to witness firsthand her contribution and impact to the education ecosystem when she trained the teaching staff at the academic institution I preside over. Till date, the tools she taught and shared with my team are still very instrumental to curriculum formation and teachers' capacity development at our school.",
+    author: "Mr Danisa",
+    place: "School Owner",
   },
   {
     id: "3",
-    img: Anu1.src,
-    text: " As a parent, I feel more equipped and confident in supporting my child's educational journey. I am grateful for their unwavering commitment to early education excellence. Early Years Learning Ng. has been a game-changer for my child's education. The personalized attention and innovative teaching methods have sparked a love for learning in my child that I had not seen before. The resources and guidance provided by their team are top-notch. As a parent, I feel more equipped and confident in supporting my child's educational journey. I am grateful for their unwavering commitment to early education excellence",
+    img: Ututo.src,
+    text: "I was glad I signed up for the Teach Your Child to Read phonics course for parents, the course was extremely well-planned with engaging materials and live sessions. What impressed me the most about this course is the engaging session with the tutor, it was also a chance for me to learn phonics too. I’ve never learned phonics as a child so I benefited from the lessons as well.",
+    author: "Mrs Ututo",
+    place: "Parent",
   },
 ];
 const Testimonials = () => {

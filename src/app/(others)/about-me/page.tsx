@@ -7,6 +7,7 @@ import TrainingGallery from "../services/training-and-consultation/_components/T
 import MyJourney from "./_component/MyJourney";
 import WorkExperience from "./_component/WorkExperience";
 import MCEComponent from "./_component/MCE";
+import PhotoGallery from "./_component/PhotoGallery";
 
 export const metadata: Metadata = {
   title: "About",
@@ -77,7 +78,8 @@ const AboutPage = () => {
       <MyJourney />
       <WorkExperience />
       <MCEComponent />
-      <TrainingGallery title="Photo Gallery" />
+      <PhotoGallery />
+      {/* <TrainingGallery title="Photo Gallery" /> */}
     </section>
   );
 };
