@@ -37,7 +37,7 @@ const ForSchools = () => {
         We offer quality Teacher Training and Consultation Services for schools{" "}
         <br />
         (Early Years and Key Stage 1), Child care Centers, Creche/Daycare,
-        Nursery Setting etc. Both in-house and Virtual Options are available.
+        Nursery Setting etc. Both in-house and virtual options are available.
       </p>
       <div className="flex flex-col md:flex-row items-center gap-20 md:items-start py-10">
         <div

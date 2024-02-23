@@ -8,11 +8,12 @@
     cursor: pointer;
     padding: 12px 24px;
     outline: none;
-    transition: 300ms ease;
-    font-weight: 600;
+    transition: 500ms ease;
+    font-weight: 400;
 
     &:hover {
       padding: 12px 30px;
+      background: #ebd6ef;
     }
   }
 }

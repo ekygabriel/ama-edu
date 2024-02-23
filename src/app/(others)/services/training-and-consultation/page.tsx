@@ -30,7 +30,7 @@ const data = [
   {
     img: Training1,
     lead: "School Training Session",
-    text: "Facilitating a training session at Mary Rose School Lagos.",
+    text: "Facilitating an EYFS and phonics training session at Mary Rose School, Lagos.",
   },
   {
     img: Training3,

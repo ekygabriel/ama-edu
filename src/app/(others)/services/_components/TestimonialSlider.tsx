@@ -3,7 +3,6 @@
 import { useCallback, useEffect, useState } from "react";
 import "./TestimonialSlider.scss";
 import Image, { StaticImageData } from "next/image";
-import { Quotes } from "@/assets";
 
 interface TestimonialSlider {
   id: string;
@@ -19,19 +18,66 @@ interface TestimonialSliderProps {
 
 const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [hoveredSlide, setHoveredSlide] = useState<number | null>(null);
 
   useEffect(() => {
     let timer: NodeJS.Timeout;
 
     timer = setInterval(() => {
       nextSlide();
-    }, 12000);
+    }, 10000);
+
+    // Clear timer on hover (optional: clear only if autoplay is enabled)
+    const pauseOnHover = true; // Set to true for hover-based pausing
+    if (pauseOnHover && hoveredSlide !== null) {
+      clearInterval(timer);
+    }
 
     return () => {
       clearInterval(timer);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentSlide]);
+  }, [hoveredSlide, currentSlide]);
+
+  useEffect(() => {
+    let startX: number | undefined;
+    const swipeThreshold = 50; // Adjust as needed
+    let swipeDirection: "left" | "right" | null = null;
+
+    const handleTouchStart = (event: TouchEvent) => {
+      startX = event.touches[0]?.clientX; // Use optional chaining
+    };
+
+    const handleTouchMove = (event: TouchEvent) => {
+      if (Math.abs(event.touches[0]?.clientX - startX!) > swipeThreshold) {
+        swipeDirection = event.touches[0].clientX! < startX! ? "left" : "right";
+      }
+    };
+
+    const handleTouchEnd = () => {
+      if (swipeDirection) {
+        if (swipeDirection === "left") {
+          prevSlide();
+        } else {
+          nextSlide();
+        }
+        swipeDirection = null;
+      }
+    };
+
+    // Add event listeners
+    document.addEventListener("touchstart", handleTouchStart);
+    document.addEventListener("touchmove", handleTouchMove);
+    document.addEventListener("touchend", handleTouchEnd);
+
+    return () => {
+      // Remove event listeners
+      document.removeEventListener("touchstart", handleTouchStart);
+      document.removeEventListener("touchmove", handleTouchMove);
+      document.removeEventListener("touchend", handleTouchEnd);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const nextSlide = useCallback(() => {
@@ -52,6 +98,8 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ slides }) => {
         <div
           key={slide.id}
           className={`slide ${index === currentSlide ? "active" : ""}`}
+          onMouseEnter={() => setHoveredSlide(index)}
+          onMouseLeave={() => setHoveredSlide(null)}
         >
           <div className="flex flex-col md:flex-row items-center gap-10">
             <p className="text-center md:flex-[2] md:text-right max-w-[500px] md:max-w-[600px]">

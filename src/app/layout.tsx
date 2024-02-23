@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { redhat, kumbh } from "./font";
 
 import "./globals.css";
-// import AppHeader from "@/components/layout/nav";
-// import Footer from "@/components/layout/Footer";
-
 export const metadata: Metadata = {
   title: {
     template: "%s - Anuoluwapo Michael-Ayeni",
@@ -12,6 +9,10 @@ export const metadata: Metadata = {
   },
   description:
     "This is the website of Anuoluwapo Michael-Ayeni, Early Childhood Educator, Educational Consultant, School Leader and Phonics/ Diction Expert.",
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
+  metadataBase: new URL("https://anuoluwapomichaelayeni.com"),
 };
 
 export default function RootLayout({

@@ -24,6 +24,32 @@
       pointer-events: none;
       visibility: hidden;
     }
+
+    a {
+      position: relative;
+      transition: 300ms;
+
+      &:hover,
+      &.Active {
+        color: #c385d0;
+
+        &::after {
+          background-color: #c385d0;
+          width: 100%;
+          transition: 300ms;
+        }
+      }
+
+      &::after {
+        width: 0;
+        height: 1.5px;
+        background-color: transparent;
+
+        display: block;
+        content: "";
+        margin-top: 5px;
+      }
+    }
   }
 }
 

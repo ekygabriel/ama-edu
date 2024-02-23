@@ -1,7 +1,4 @@
-// import Footer from "../components/footer/Footer";
-// import NotificationModal from "../components/modal/NotificationModal";
 import AppHeader from "@/components/layout/nav";
-import BackButton from "./_components/BackButton";
 import ContactForm from "./_components/ContactForm";
 import Image from "next/image";
 import { BG_Colors } from "@/assets";

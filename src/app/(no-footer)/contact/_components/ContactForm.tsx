@@ -52,7 +52,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form action={handleSubmit} ref={ref}>
+    <form action={handleSubmit} ref={ref} className="font-kumbh">
       {formData.map((item) =>
         item.name !== "message" ? (
           <ContactInput key={item.name} {...item} />

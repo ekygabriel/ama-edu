@@ -9,7 +9,7 @@ const data = [
     title: "The EYFS Teacher Bootcamp",
     img: EYFS_Bootcamp,
     info: [
-      "Register for the 6 weeks EYFS to learn about the EYFS framework, best practices and practical lesson activities to infuse into their school/classroom.",
+      "Register for the 6 weeks EYFS teacher training to learn about the EYFS framework, best practices and practical lesson activities to infuse into their school/classroom.",
     ],
     buttonText: "Register",
     buttonLink:

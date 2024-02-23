@@ -48,8 +48,8 @@ const socials = [
 
 const Footer = () => {
   return (
-    <>
-      <div className="bg-purple-light flex flex-col py-6 items-center gap-2 px-4">
+    <div className="font-kumbh">
+      <div className="bg-purple-light flex flex-col py-20 items-center gap-2 px-4">
         <p className="text-center max-w-[600px] mx-auto text-purple-dark ">
           Subscribe to my newsletter for tips, experiences, latest updates and
           trends in early childhood education.
@@ -61,14 +61,17 @@ const Footer = () => {
         style={{ flex: "3" }}
       >
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-4 max-w-[300px] lg:max-w-6xl w-full px-4">
-          <div style={{ flex: "3" }}>
+          <div
+            style={{ flex: "3" }}
+            className="border-b lg:border-b-0 pb-10 lg:pb-0 lg:border-r lg:max-w-max lg:pr-10"
+          >
             <Image src={Logo_White} alt="AMA Logo" width={200} height={120} />
-            <small className="block max-w-[250px] mt-6">
+            <small className="block text-sm max-w-[250px] mt-6 font-light">
               Early Childhood Educator, Educational Consultant, Teacher Trainer
               and Phonics/Diction Expert.
             </small>
           </div>
-          <div style={{ flex: "2" }}>
+          <div style={{ flex: "2" }} className="lg:pl-10">
             <h5 className="text-xl">
               <Link className="hover:underline" href="/services">
                 Services
@@ -145,7 +148,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-center text-sm">
+        <div className="text-center text-sm font-light border-t lg:border-t-0 pt-10 lg:pt-0 max-w-[300px] lg:max-w-none">
           AanuOluwapo Michael-Ayeni © {new Date().getFullYear()}. All Rights
           Reserved.
         </div>
@@ -159,7 +162,7 @@ const Footer = () => {
           </Link>
         </small>
       </footer>
-    </>
+    </div>
   );
 };
 

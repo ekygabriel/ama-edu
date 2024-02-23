@@ -2,7 +2,7 @@ import { Kumbh_Sans, Red_Hat_Display } from "next/font/google";
 
 const kumbhfont = Kumbh_Sans({
   subsets: ["latin"],
-  weight: ["300", "600", "800"],
+  weight: ["300", "500", "600", "800"],
   variable: "--font-kumbh",
 });
 

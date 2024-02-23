@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 const TypeWriter = () => {
   return (
     <div className="md:h-max flex text-center md:text-left">
-      <div className="capitalize text-lg sm:text-[20px] text-black max-w-[300px] relative w-full px-0 mx-0">
+      <div className="capitalize text-sm font-light sm:text-[20px] text-black max-w-[300px] relative w-full px-0 mx-0 font-kumbh">
         <Typewriter
           cursorBlinking
           loop

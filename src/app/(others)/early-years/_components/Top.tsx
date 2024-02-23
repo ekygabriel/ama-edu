@@ -29,15 +29,14 @@ const Top = () => {
       <p>
         We also offer professional development courses, trainings, consultation,
         mentorship and support with the development and implementation of the
-        EYFS curriculum. We provide guidance and support for schools, teachers,
-        parents and families, promoting their engagement in their learners’/
-        children&apos;s early learning.
+        Early Years curriculum. We provide guidance and support for schools,
+        teachers, parents and families, promoting their engagement in their
+        learners’/ children&apos;s early learning.
       </p>
       <p>
-        Our YouTube channel - Early years Learning TV also offers engaging
+        Our YouTube channel - Early Years Learning TV also offers engaging
         lessons for young children in the different areas of learning and
-        development in line with the EYFS learning goals as well as webinars and
-        tips for educators and parents.
+        development as well as webinars and tips for educators and parents.
       </p>
       <p>
         We are passionate about Early Years Literacy and also provide necessary
@@ -55,9 +54,9 @@ const Top = () => {
           </p>
           <h3 className="text-4xl mt-8 md:mt-16">Mission</h3>
           <p>
-            To educate all stake holders in the early years education sector on
-            EYFS learning and development, thereby equipping them to support
-            learners appropriately to attain their best.
+            To educate all stake holders on the early childhood education
+            practices, thereby equipping them to support learners appropriately
+            to attain their best.
           </p>
         </div>
         <Image

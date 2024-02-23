@@ -25,17 +25,16 @@ const AppHeader = () => {
       <Link href="/">
         <Image src={Logo} alt="Logo" width={1000} height={500} />
       </Link>
-      <ul className={classes.NavItems + " flex gap-6 items-center font-medium"}>
+      <ul
+        className={
+          classes.NavItems + " flex gap-6 items-center font-medium font-kumbh"
+        }
+      >
         {navData.map((link) => (
           <Link
             href={link.href}
             key={link.id}
-            className={`relative after:content-[""] after:block after:w-full after:h-[1.5px] after:mt-1 hover:after:bg-purple-nsdsormal  ${
-              ActiveLink.includes(link.href)
-                ? "text-purple-normal after:bg-purple-normal"
-                : ""
-            }`}
-            style={{ transition: "1000ms ease all" }}
+            className={ActiveLink.includes(link.href) ? classes.Active : ""}
             onClick={() => setActiveLink(link.href)}
           >
             {link.label}

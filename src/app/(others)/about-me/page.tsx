@@ -35,12 +35,12 @@ const AboutPage = () => {
           </h2>
           <div className="text-justify max-w-3xl mx-auto md:mx-0 flex flex-col gap-3 pb-16">
             <p>
-              Anuoluwapo is a distinguished Early Years Educator, boasting of
-              over a decade of experience in the classroom and a certification
-              in Elocution. She harbors a deep-seated passion for guiding
-              children towards their utmost potential, alongside mentoring and
-              supporting fellow educators and professionals in the field of
-              Early Childhood Education.
+              Anuoluwapo is a distinguished Early Childhood Educator, boasting
+              of over a decade of experience in the classroom and a
+              certification in Elocution. She harbors a deep-seated passion for
+              guiding children towards their utmost potential, alongside
+              mentoring and supporting fellow educators and professionals in the
+              field of Early Childhood Education.
             </p>
             <p>
               As the Founder of Early Years Learning, Anuoluwapo spearheads an

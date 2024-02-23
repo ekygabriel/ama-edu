@@ -13,7 +13,6 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({
   text,
-  className = "",
   type = "button",
   style = {},
   target = "",
@@ -24,7 +23,11 @@ const Button: React.FC<ButtonProps> = ({
 
   if (href) {
     content = (
-      <Link href={href} className={classes.Button} target={target}>
+      <Link
+        href={href}
+        className={classes.Button + " font-kumbh"}
+        target={target}
+      >
         {text}
       </Link>
     );
@@ -33,7 +36,7 @@ const Button: React.FC<ButtonProps> = ({
       <button
         type={type}
         onClick={onClick ? onClick : () => {}}
-        className={classes.Button}
+        className={classes.Button + " font-kumbh"}
       >
         {text}
       </button>

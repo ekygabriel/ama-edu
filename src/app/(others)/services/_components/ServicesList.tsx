@@ -25,7 +25,7 @@ const data = [
   {
     lead: "Video Lessons and Educational Shows on Youtube",
     paragraph:
-      "Our YouTube Channel offers a variety of engaging lessons, meeting the early learning goals of the different areas of EYFS through lessons on phonics, numbers, shapes, science, language development etc. which can be used by parents, teachers or children during lessons. We also have an educational show where different educators are hosted, discussing on topical issues relating to Early Childhood Education.",
+      "Our YouTube Channel offers a variety of engaging lessons, meeting the required goals in early childhood education through lessons on phonics, numbers, shapes, science, language development etc. which can be used by parents, teachers or children during lessons. We also have an educational show where different educators are hosted, discussing on topical issues relating to Early Childhood Education.",
     linkText: "Watch YouTube Videos",
     linkUrl: "https://youtube.com/@earlyyearslearningtv",
   },
