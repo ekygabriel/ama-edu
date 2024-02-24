@@ -20,7 +20,11 @@ const SideNav = () => {
           <span></span>
         </div>
 
-        <ul className={`${Open ? classes.Open : ""} ${classes.NavItems}`}>
+        <ul
+          className={`${Open ? classes.Open : ""} ${
+            classes.NavItems
+          } font-kumbh`}
+        >
           {navData.map((item) => (
             <Link
               key={item.label}

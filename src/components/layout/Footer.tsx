@@ -154,8 +154,9 @@ const Footer = () => {
         </div>
         <small className="-mt-10">
           <Link
-            href="https://michaelayeni.com"
-            target="_blank"
+            // href="https://michaelayeni.com"
+            href="#"
+            // target="_blank"
             className="text-black"
           >
             Powered by: The Coding Pastor
