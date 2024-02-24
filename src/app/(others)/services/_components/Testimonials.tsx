@@ -26,7 +26,7 @@ const data = [
 ];
 const Testimonials = () => {
   return (
-    <div className="bg-purple-light py-20 mt-20">
+    <div className="bg-purple-light py-20 mt-20 h-[770px] md:h-auto">
       <h2 className="text-center -mb-3">Testimonials</h2>
       <div className="w-full max-w-[800px] mx-auto pl-16 py-4">
         <Image
