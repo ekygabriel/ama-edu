@@ -62,11 +62,15 @@ const WorkExperience = () => {
             </p>
           </div>
           <div className="max-w-[300px]">
-            <h4 className="mb-0 text-[20px] md:text-center">Nursery Manager</h4>
+            <h4 className="mb-0 text-[20px] md:text-center">
+              Diction/Elocution Coach
+            </h4>
             <p className="text-sm leading-5 md:text-justify">
-              I lead a team of early years professionals in educating children
-              at Mini Treasures Preparatory School. Together with other
-              stakeholders we foster fun and engaging learning.
+              As a certified Elocutionist, I am dedicated to helping children
+              and adults master the English language with clarity and
+              confidence. Through personalized coaching, I empower my students
+              to articulate effectively, fostering communication skills that
+              open doors to new opportunities.
             </p>
           </div>
           <div className="max-w-[300px]">

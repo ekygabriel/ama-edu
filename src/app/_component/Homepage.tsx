@@ -46,7 +46,7 @@ const Homepage = () => {
             <TypeWriter />
             <div className="flex flex-col items-center md:flex-row gap-10 md:gap-3 relative z-10">
               <Button text="More About Me" href="/about-me" />
-              <Button text="View My Portfolio" href="/early-years" />
+              <Button text="View My Services" href="/services" />
             </div>
             <div className="hidden md:flex w-max relative z-10">
               <Button

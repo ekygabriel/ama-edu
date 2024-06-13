@@ -43,7 +43,7 @@ const AboutPage = () => {
               field of Early Childhood Education.
             </p>
             <p>
-              As the Founder of Early Years Learning, Anuoluwapo spearheads an
+              As the Founder of AMA Learning Solutions, Anuoluwapo spearheads an
               educational consultancy dedicated to elevating the standards of
               educational practices. This endeavor involves offering
               professional development courses, training, consultation, and

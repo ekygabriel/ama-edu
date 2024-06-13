@@ -21,10 +21,10 @@ const Top = () => {
         className="block mb-5"
       />
       <p>
-        Early Years Learning is an educational consult that offers a wide range
-        of services for early years educators, schools and parents who require
-        trainings, consultations and support with providing high quality
-        learning and development for early learners.
+        Early Years Learning by AMA offers a wide range of services for early
+        years educators, schools and parents who require trainings,
+        consultations and support with providing high quality learning and
+        development for early learners.
       </p>
       <p>
         We also offer professional development courses, trainings, consultation,

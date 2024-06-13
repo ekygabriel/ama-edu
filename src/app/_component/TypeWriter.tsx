@@ -14,7 +14,8 @@ const TypeWriter = () => {
             "An Early Childhood Educator...",
             "A Teacher Trainer...",
             "An Educational Consultant...",
-            "A Phonics/Diction Expert...",
+            "A Phonics/Reading Expert...",
+            "An Elocutionist...",
           ]}
         />
       </div>

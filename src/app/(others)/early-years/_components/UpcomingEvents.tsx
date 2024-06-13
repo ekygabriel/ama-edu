@@ -32,7 +32,7 @@ const UpcomingEvents = () => {
   return (
     <div id="#events">
       <h2 className="text-6xl py-32 text-center bg-purple-dark text-white">
-        Upcoming Events
+        Programmes
       </h2>
       <ul className="max-w-[700px] mx-auto px-4 -mt-24 relative z-10 flex flex-col items-center pb-20">
         {data.map((item) => (

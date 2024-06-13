@@ -143,7 +143,7 @@ const Footer = () => {
                 className="text-sm font-light hover:underline"
                 href="/early-years#events"
               >
-                Upcoming Events
+                Programmes
               </Link>
             </div>
           </div>
