@@ -11,12 +11,13 @@ const ForSchools = () => {
     "Lesson Planning and Engagement in the 7 Areas of EYFS",
     "Early Years Phonics/Effective strategies for Teaching Reading (Jolly Phonics/ Letters and Sounds)",
     "Observation and Assessment Tools in the Early Years",
-    "Learning Through Play Working with Parents as Partners",
+    "Play-based Learning",
+    "Working with Parents as Partners",
     "Behavior Management in the Early Years",
     "Nelson Handwriting",
     "Differentiation in Practice",
     "Special Educational Needs",
-    "Diction and Phonetics for Teachers",
+    "Diction and Phonetics for Teachers (Elocution)",
     "Child Protection and Safeguarding",
   ];
 
@@ -119,11 +120,11 @@ const ForSchools = () => {
             ))}
           </ul>
           <p className="mb-10">
-            Click on the button below to request for my brand portfolio for
-            schools.
+            Click on the button below to request for school consultation
+            proposal.
           </p>
           <Button
-            text="Brand Portfolio"
+            text="Get Consultation Proposal"
             href="https://docs.google.com/forms/d/e/1FAIpQLSdv4wnWirrPM80YAFZ9EGrfOUEP99LPHX_RmjkAtgQjcrIBLg/viewform"
             target="_blank"
           />

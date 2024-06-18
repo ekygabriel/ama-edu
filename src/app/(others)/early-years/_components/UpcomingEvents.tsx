@@ -1,33 +1,9 @@
-import { EYFS_Bootcamp, Conversations } from "@/assets";
 import Button from "@/components/form/Button";
 import Image from "next/image";
 
+import { data } from "./data";
 import "./UpcomingEvents.scss";
 
-const data = [
-  {
-    title: "The EYFS Teacher Bootcamp",
-    img: EYFS_Bootcamp,
-    info: [
-      "Register for the 6 weeks EYFS teacher training to learn about the EYFS framework, best practices and practical lesson activities to infuse into their school/classroom.",
-    ],
-    buttonText: "Register",
-    buttonLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfVDZllIGMYqPukXU_lRiVlXzXz6wsVIQyuNhTVNDJ2JUS8VQ/viewform",
-    tag: "Training",
-  },
-  {
-    title: "Conversations With Anuoluwapo",
-    img: Conversations,
-    info: [
-      "Join me Live on Instagram every second Saturday of the month as I discuss topical issues relating to early childhood care and education.",
-      //   "You can also watch the replay of each episode on my YouTube channel.",
-    ],
-    buttonText: "Watch Replays",
-    buttonLink: "https://youtube.com/@earlyyearslearningtv",
-    tag: "Instagram Live",
-  },
-];
 const UpcomingEvents = () => {
   return (
     <div id="#events">

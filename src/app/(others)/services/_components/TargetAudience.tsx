@@ -13,17 +13,17 @@ const data = [
   {
     img: Parents,
     lead: "Parents",
-    text: "Parents of children in the Early Years and/or Key Stage 1 can sign up for any of our courses for parents or book a consultation to seek professional advice regarding the learning and development of their early learners. They  can also access our learning tips and activities shared via blog posts or on our YouTube Channel.",
+    text: "Parents of children in the Early Years and/or Key Stage 1 can sign up for any of our courses, register their children for our classes or book a consultation to seek professional advice regarding the learning and development of their early learners. They can also access our learning tips and activities shared via blog posts or on our YouTube Channel.",
   },
   {
     img: EYFS_Practitioners,
-    lead: "Early Years Practitioners",
-    text: "Teachers, Teaching Assistant, support teachers or any one who works with children can sign up for any of our continuous professional development courses or book a mentorship session where they will be appropriately supported and equipped to become successful early years practitioners. They can also learn from our helpful tips, activities and ideas shared via blogposts.",
+    lead: "Educators",
+    text: "Teachers, Teaching Assistant, support teachers or any one who works with children can sign up for any of our Continuous Professional Development courses or book a mentorship session where they will be appropriately supported and equipped to become successful practitioners. They can also learn from our helpful tips, activities and ideas shared via blogposts.",
   },
   {
     img: EYFS_Leaders,
-    lead: "Early Years Leaders",
-    text: "School leaders, administrators, Curriculum leads or aspiring leaders who wish to improve their knowledge of the EYFS framework/Early childhood practices, update their knowledge and skills, and learn more about ways to offer support to their staff can sign up for our  Leadership courses. They can also access our blog posts, book us for in-house or virtual trainings for their teachers or for parents seminar in their schools.",
+    lead: "School Leaders",
+    text: "School leaders, administrators, curriculum leads or aspiring leaders who wish to improve their knowledge of the EYFS framework/Early childhood practices, update their knowledge and skills, and learn more about ways to offer support to their staff can sign up for our Leadership courses. They can also access our blog posts, book us for in-house or virtual trainings for their teachers or for parents seminar in their schools or sign up for one of our consultation packages.",
   },
   {
     img: Nannies,

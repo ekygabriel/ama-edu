@@ -40,7 +40,11 @@ import Excellence from "@/assets/images/excellence.svg";
 import EarlyYearsLogo from "@/assets/images/early-years-logo.webp";
 import Vision from "@/assets/images/vision.webp";
 import Conversations from "@/assets/images/conversations.webp";
-import EYFS_Bootcamp from "@/assets/images/eyfs-bootcamp.webp";
+import PrivateTutor from "@/assets/images/private_tutor.webp";
+import PhonicsAndReading from "@/assets/images/phonics_and_reading.webp";
+import PhonicsIntervention from "@/assets/images/phonics_intervention.webp";
+import ElocutionCourse from "@/assets/images/elocution_course.webp";
+import ReadingIntervention from "@/assets/images/reading_intervention.webp";
 import Omowunmi from "@/assets/images/omo.webp";
 import NotFound from "@/assets/images/404.webp";
 import Training1 from "@/assets/images/training-1.webp";
@@ -54,6 +58,11 @@ import Ututo from "@/assets/images/utu.webp";
 export {
   Logo_White,
   BG_Colors,
+  PrivateTutor,
+  PhonicsAndReading,
+  PhonicsIntervention,
+  ReadingIntervention,
+  ElocutionCourse,
   Bar_Vert,
   AnuHome,
   Ututo,
@@ -64,7 +73,6 @@ export {
   Training4,
   Training5,
   Conversations,
-  EYFS_Bootcamp,
   Omowunmi,
   Building,
   NotFound,
