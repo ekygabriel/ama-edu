@@ -1,7 +1,7 @@
 import {
   Conversations,
   PrivateTutor,
-  PhonicsAndReading,
+  PhonicsAndDiction,
   PhonicsIntervention,
   ElocutionCourse,
   ReadingIntervention,
@@ -13,7 +13,7 @@ export const data = [
     title: "One-to-One Elocution Course for Educators",
     img: ElocutionCourse,
     info: [
-      "To improve your speaking skills from Fluency to Eloquence, sign up for our one-to-one elocution course for a 4 weeks practical class. You will learn to properly produce the British English sounds and enunciate words correctly. A certificate will be awarded after the completion of the course.",
+      "To improve your speaking skills from Fluency to Eloquence, sign up for our one-to-one elocution course for a 5 weeks practical class. You will learn to properly produce the British English sounds and enunciate words correctly. A certificate will be awarded after the completion of the course.",
     ],
     buttonText: "Register",
     buttonLink:
@@ -31,10 +31,10 @@ export const data = [
     tag: "YouTube",
   },
   {
-    title: "Phonics and Reading Club",
-    img: PhonicsAndReading,
+    title: "Phonics and Diction Club",
+    img: PhonicsAndDiction,
     info: [
-      "Register your child/(ren) for our Phonics and Reading Club, holding every Saturday from 5pm - 6pm (WAT). Children will be taken through the rudiments of reading fluency, correct enunciation of words, creative writing using a variety of picture prompts to create their own detailed stories and instructional texts etc.",
+      "Register your child/(ren) for our Phonics and Diction Club, holding every Saturday from 11am - 12pm (WAT). Children will be taken through the rudiments of reading fluency, correct enunciation of words, creative writing using a variety of picture prompts to create their own detailed stories and instructional texts etc.",
     ],
     buttonText: "Register",
     buttonLink: whatsappLink,

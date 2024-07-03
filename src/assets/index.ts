@@ -41,7 +41,7 @@ import EarlyYearsLogo from "@/assets/images/early-years-logo.webp";
 import Vision from "@/assets/images/vision.webp";
 import Conversations from "@/assets/images/conversations.webp";
 import PrivateTutor from "@/assets/images/private_tutor.webp";
-import PhonicsAndReading from "@/assets/images/phonics_and_reading.webp";
+import PhonicsAndDiction from "@/assets/images/phonics_and_diction.webp";
 import PhonicsIntervention from "@/assets/images/phonics_intervention.webp";
 import ElocutionCourse from "@/assets/images/elocution_course.webp";
 import ReadingIntervention from "@/assets/images/reading_intervention.webp";
@@ -59,7 +59,7 @@ export {
   Logo_White,
   BG_Colors,
   PrivateTutor,
-  PhonicsAndReading,
+  PhonicsAndDiction,
   PhonicsIntervention,
   ReadingIntervention,
   ElocutionCourse,
