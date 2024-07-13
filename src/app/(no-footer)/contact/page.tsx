@@ -37,7 +37,7 @@ const ContactPage = () => {
                 </a>
               </p>
               <p>
-                Phone Number: <a href="tel:+2347033379771">+2347033379771</a>
+                Phone Number: <a href="tel:+2347066631594">+2347066631594</a>
               </p>
 
               <p className="mt-10">Mondays to Fridays: 8am - 4pm</p>

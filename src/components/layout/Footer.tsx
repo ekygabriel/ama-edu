@@ -114,10 +114,10 @@ const Footer = () => {
             <div className="flex flex-col gap-1 mt-4">
               <Link
                 className="hover:underline text-sm font-light"
-                href="tel:+2347033379771"
+                href="tel:+2347066631594"
                 target="_blank"
               >
-                Call me on: +2347033379771
+                Call me on: +2347066631594
               </Link>
               <div className="text-sm font-light">Follow me on:</div>
               <SocialMediaIcons

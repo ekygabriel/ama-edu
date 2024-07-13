@@ -7,7 +7,7 @@ import {
   ReadingIntervention,
 } from "@/assets";
 
-const whatsappLink = "https://wa.me/07033379771";
+const whatsappLink = "https://wa.me/07066631594";
 export const data = [
   {
     title: "One-to-One Elocution Course for Educators",
@@ -16,8 +16,7 @@ export const data = [
       "To improve your speaking skills from Fluency to Eloquence, sign up for our one-to-one elocution course for a 5 weeks practical class. You will learn to properly produce the British English sounds and enunciate words correctly. A certificate will be awarded after the completion of the course.",
     ],
     buttonText: "Register",
-    buttonLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfVDZllIGMYqPukXU_lRiVlXzXz6wsVIQyuNhTVNDJ2JUS8VQ/viewform",
+    buttonLink: whatsappLink,
     tag: "Training",
   },
   {
