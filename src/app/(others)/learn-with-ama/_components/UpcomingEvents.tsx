@@ -7,7 +7,7 @@ import "./UpcomingEvents.scss";
 const UpcomingEvents = () => {
   return (
     <div id="#events">
-      <h2 className="text-6xl py-32 text-center bg-purple-dark text-white">
+      <h2 className=" text-4xl sm:text-6xl py-20 sm:py-32 text-center bg-purple-dark text-white">
         Programmes
       </h2>
       <ul className="max-w-[700px] mx-auto px-4 -mt-24 relative z-10 flex flex-col items-center pb-20">

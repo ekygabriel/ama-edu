@@ -115,7 +115,7 @@ const ForSchools = () => {
                 key={index}
                 className="before:content-['']  before:w-1 before:h-1 before:bg-black before:absolute before:top-2 before:rounded-full relative mb-2"
               >
-                <span className="inline-block ml-3">{item}.</span>
+                <span className="inline-block ml-3">{item}</span>
               </li>
             ))}
           </ul>

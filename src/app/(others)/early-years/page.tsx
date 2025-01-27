@@ -1,6 +1,4 @@
-import React from "react";
 import Top from "./_components/Top";
-import UpcomingEvents from "./_components/UpcomingEvents";
 
 const EarlyYearsPage = () => {
   return (
@@ -17,7 +15,6 @@ const EarlyYearsPage = () => {
       <div className="max-w-4xl mx-auto px-4 mt-20">
         <Top />
       </div>
-      <UpcomingEvents />
     </div>
   );
 };

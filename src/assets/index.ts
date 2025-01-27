@@ -22,6 +22,8 @@ import TrainingGal3 from "@/assets/images/services/gal3.webp";
 import TrainingGal4 from "@/assets/images/services/gal4.webp";
 import TrainingGal5 from "@/assets/images/services/gal5.webp";
 import TrainingGal6 from "@/assets/images/services/gal6.webp";
+import TrainingGal7 from "@/assets/images/training-6.webp";
+import TrainingGal8 from "@/assets/images/training-7.webp";
 import CalendarBG from "@/assets/images/services/bg-color.webp";
 import Egg1 from "@/assets/images/services/egg1.webp";
 import Egg2 from "@/assets/images/services/egg2.webp";
@@ -37,14 +39,13 @@ import BG_Colors from "@/assets/images/bg_colour.webp";
 import Collab from "@/assets/images/collab.svg";
 import Integrity from "@/assets/images/integrity.svg";
 import Excellence from "@/assets/images/excellence.svg";
-import EarlyYearsLogo from "@/assets/images/early-years-logo.webp";
+import LearnWithAMALogo from "@/assets/images/learn_with_ama_logo.webp";
 import Vision from "@/assets/images/vision.webp";
 import Conversations from "@/assets/images/conversations.webp";
-import PrivateTutor from "@/assets/images/private_tutor.webp";
 import PhonicsAndDiction from "@/assets/images/phonics_and_diction.webp";
-import PhonicsIntervention from "@/assets/images/phonics_intervention.webp";
+import LearnBanner from "@/assets/images/learn-banner.webp";
+import YoutubeChannel from "@/assets/images/youtube_channel.webp";
 import ElocutionCourse from "@/assets/images/elocution_course.webp";
-import ReadingIntervention from "@/assets/images/reading_intervention.webp";
 import Omowunmi from "@/assets/images/omo.webp";
 import NotFound from "@/assets/images/404.webp";
 import Training1 from "@/assets/images/training-1.webp";
@@ -58,10 +59,8 @@ import Ututo from "@/assets/images/utu.webp";
 export {
   Logo_White,
   BG_Colors,
-  PrivateTutor,
   PhonicsAndDiction,
-  PhonicsIntervention,
-  ReadingIntervention,
+  YoutubeChannel,
   ElocutionCourse,
   Bar_Vert,
   AnuHome,
@@ -73,12 +72,13 @@ export {
   Training4,
   Training5,
   Conversations,
+  LearnBanner,
   Omowunmi,
   Building,
   NotFound,
   Collab,
   Integrity,
-  EarlyYearsLogo,
+  LearnWithAMALogo,
   Excellence,
   Logo,
   Vision,
@@ -101,6 +101,8 @@ export {
   TrainingGal4,
   TrainingGal5,
   TrainingGal6,
+  TrainingGal7,
+  TrainingGal8,
   ServicesBanner,
   ServicesMobile,
   CPD,

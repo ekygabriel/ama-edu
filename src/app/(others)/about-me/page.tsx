@@ -54,6 +54,25 @@ const AboutPage = () => {
               all facets of education for both children and educators.
             </p>
             <p>
+              Anuoluwapo Michael-Ayeni is also on of the co-founders of It’s
+              Learning Time, an innovative educational platform that provides
+              engaging digital learning resources for parents and educators and
+              creates impactful tools that enhance children’s learning outcomes
+              from Early Years to Secondary Education. She is committed to
+              bridging the gap between parents and quality education by
+              connecting families to suitable tutors for personalised learning
+              experiences.
+            </p>
+            <p>
+              Her expertise in early years education, combined with her
+              dedication to professional development for educators, positions
+              her as a leader in designing resources that foster growth and
+              excellence in education. Anuoluwapo is also a voiceover artist,
+              educational content creator, School and Educational conference
+              event host blending her diverse skills to revolutionise the
+              educational space.
+            </p>
+            <p>
               Additionally, Anuoluwapo extends her expertise through a{" "}
               <Link
                 href="https://youtube.com/@earlyyearslearningtv"

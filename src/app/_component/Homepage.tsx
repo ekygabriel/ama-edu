@@ -45,14 +45,11 @@ const Homepage = () => {
             </div>
             <TypeWriter />
             <div className="flex flex-col items-center md:flex-row gap-10 md:gap-3 relative z-10">
-              <Button text="More About Me" href="/about-me" />
+              <Button text="About Me" href="/about-me" />
               <Button text="View My Services" href="/services" />
             </div>
             <div className="hidden md:flex w-max relative z-10">
-              <Button
-                text="Sign up for Mentorship"
-                href="/services/mentorship"
-              />
+              <Button text="Learn with AMA" href="/learn-with-ama" />
             </div>
             <div className="flex md:hidden justify-center z-10">
               <Button text="Mentorship Signup" href="/services/mentorship" />

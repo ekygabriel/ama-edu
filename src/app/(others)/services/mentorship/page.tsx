@@ -37,11 +37,13 @@ const MentorshipPage = () => {
       <div className="bg-yellow-light py-20 px-4">
         <div className="max-w-4xl flex gap-16 md:gap-8 flex-col md:flex-row justify-center mx-auto items-center md:items-start">
           <div className="max-w-[300px] text-center flex flex-col gap-4">
-            <h3>
-              One to One <br /> Mentorship
-            </h3>
+            <h3>1-to-1 Mentorship</h3>
             <p className="mb-6">
-              10 weeks Personalised Mentorship for teachers.
+              Our one-to-one mentorship offers personalised support to
+              individuals who are looking to be supported through their practice
+              as early years practitioners. This is an 8 weeks one-to-one
+              session where classes are scheduled to suit the individuals
+              availability.
             </p>
             <Button
               href="https://forms.gle/PTUBvNbcsyDwspeL9"
@@ -50,17 +52,15 @@ const MentorshipPage = () => {
             />
           </div>
           <div className="max-w-[300px] text-center flex flex-col gap-4">
-            <h3>
-              Group Mentorship <br /> (for 3-5) persons
-            </h3>
+            <h3>Group Mentorship</h3>
             <p className="mb-6">
-              10 weeks advanced mentorship for a small group of 3-5 teachers.
+              Our small group mentorship sessions are held quarterly for a
+              period of 8 weeks, offering personalised support to new, intending
+              or current early years practitioners in a small group of not more
+              than 10 persons. (See calendar for the next group mentorship start
+              date)
             </p>
-            <Button
-              href="https://forms.gle/PTUBvNbcsyDwspeL9"
-              text="Book a Session"
-              target="_blank"
-            />
+            <Button href="/learn-with-ama#calendar" text="Go to Calendar" />
           </div>
         </div>
       </div>

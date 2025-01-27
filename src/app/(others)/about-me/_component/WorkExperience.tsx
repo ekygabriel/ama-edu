@@ -19,8 +19,8 @@ const WorkExperience = () => {
           <p className="max-w-3xl mx-auto">
             I have worked with a number of schools in Lagos, Nigeria as a Key
             stage 1 teacher, Early Years Teaching Assistant , Lead Teacher, Year
-            Group coordinator and currently as a Nursery Manager. I am committed
-            to ensuring quality delivery of the EYFS to enable children develop
+            Group coordinator and as a Nursery Manager. I am committed to
+            ensuring quality delivery of the EYFS to enable children develop
             needed skills appropriately and a lifelong love for learning.
           </p>
         </div>
@@ -53,7 +53,7 @@ const WorkExperience = () => {
         <div className="text-left flex flex-col md:flex-row gap-5">
           <div className="max-w-[300px]">
             <h4 className="mb-0 text-[20px] md:text-center">
-              Early Childhood Educator
+              Early Years Practitioner
             </h4>
             <p className="text-sm leading-5 md:text-right">
               I educate early learners in and out of the classroom, setting a

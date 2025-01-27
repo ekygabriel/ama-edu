@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 import { CPD, Course1, Course2, Course3 } from "@/assets";
 import HeroBanner from "@/components/HeroBanner";
-import BreadCrumbs from "../_components/BreadCrumbs";
+import BreadCrumbs from "../../services/_components/BreadCrumbs";
 import Image from "next/image";
 import Button from "@/components/form/Button";
 
@@ -76,11 +76,12 @@ export const metadata: Metadata = {
 const CoursesPage = () => {
   return (
     <div className="OthersLayout">
-      <HeroBanner
-        imageUrl={CPD}
-        title="Continuous Professional Development (CPD)"
+      <HeroBanner imageUrl={CPD} title="Courses" />
+      <BreadCrumbs
+        parentHref="/learn-with-ama"
+        parentHrefLabel="Learn with AMA"
+        label="Video Courses"
       />
-      <BreadCrumbs />
       <ul className="pt-14 pb-40 flex gap-8 flex-wrap max-w-4xl justify-center mx-auto px-4">
         {courses.map((course) => (
           <li

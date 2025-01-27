@@ -4,7 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-const BreadCrumbs = () => {
+const BreadCrumbs = ({
+  parentHref = "/services",
+  parentHrefLabel = "Services",
+  label = "",
+}) => {
   const pathname = usePathname();
   const [ActiveLink, setActiveLink] = useState("");
 
@@ -26,14 +30,14 @@ const BreadCrumbs = () => {
       </Link>
       <span>{">"}</span>
       <Link
-        href="/services"
+        href={parentHref}
         className="border-b-2 hover:border-b-purple-light-2 border-b-transparent transition duration-300 py-1 inline-block"
       >
-        Services
+        {parentHrefLabel}
       </Link>
       <span>{">"}</span>
       <div className="border-b-2  border-b-purple-light-2 py-1 inline-block">
-        {ActiveLink}
+        {label || ActiveLink}
       </div>
     </div>
   );

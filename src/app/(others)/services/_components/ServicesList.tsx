@@ -9,11 +9,12 @@ const data = [
     linkUrl: "/services/training-and-consultation",
   },
   {
-    lead: "Continuous Professional Development",
+    lead: "Elocution and Diction Services for Schools",
     paragraph:
-      "You can access series of Courses to improve your knowledge of the Early years pedagody and offer appropriate support to young children, either as a teacher, childminder, parent or school leader. The courses are tailored to meet specific needs and can be taken at your own pace.",
-    linkText: "Access Courses",
-    linkUrl: "/services/courses",
+      "We provide tailored elocution and diction services to help schools enhance communication and promote excellence in speech. These services include training educators to deliver clear and professional speech, developing and supporting the implementation of structured diction curricula, and offering personalised coaching to refine teachers' pronunciation, intonation, and articulation. Our goal is to empower teachers and create a lasting impact on communication standards within the classroom.",
+    linkText: "Get Diction Service Proposal",
+    linkUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdv4wnWirrPM80YAFZ9EGrfOUEP99LPHX_RmjkAtgQjcrIBLg/viewform",
   },
   {
     lead: "Mentorship for Teachers",
@@ -29,6 +30,13 @@ const data = [
     linkText: "Watch YouTube Videos",
     linkUrl: "https://youtube.com/@earlyyearslearningtv",
   },
+  {
+    lead: "Voice Over and Event Host",
+    paragraph:
+      "We offer professional voiceover services for brands, including schools, specialising in commercials, e-learning, audiobooks, narration, and profile reading. With a clear and engaging voice, AMA brings scripts to life, creating lasting impressions for your audience. Additionally, I serve as a compere for educational shows, webinars, and conferences, ensuring seamless hosting and a captivating experience for your events.",
+    linkText: "Book Voiceover Service",
+    linkUrl: "https://wa.link/7sjt7y",
+  },
 ];
 const ServicesList = () => {
   return (
@@ -40,7 +48,7 @@ const ServicesList = () => {
           <Button
             text={item.linkText}
             href={item.linkUrl}
-            target={item.linkText.includes("YouTube") ? "_blank" : ""}
+            target={item.linkUrl.includes("https") ? "_blank" : ""}
           />
         </li>
       ))}

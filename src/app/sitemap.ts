@@ -12,7 +12,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: "https://www.anuoluwapomichaelayeni.com/services/courses",
     },
     {
-      url: "https://www.anuoluwapomichaelayeni.com/portfolio",
+      url: "https://www.anuoluwapomichaelayeni.com/brand",
     },
     {
       url: "https://www.anuoluwapomichaelayeni.com/about-me",

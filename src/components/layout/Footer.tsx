@@ -12,6 +12,7 @@ import { Logo_White } from "@/assets";
 import Image from "next/image";
 import SocialMediaIcons from "../SocialMediaIcons";
 import NewsletterForm from "../NewsLetter";
+import FooterLogo from "./FooterLogo";
 
 const socials = [
   {
@@ -65,7 +66,7 @@ const Footer = () => {
             style={{ flex: "3" }}
             className="border-b lg:border-b-0 pb-10 lg:pb-0 lg:border-r lg:max-w-max lg:pr-10"
           >
-            <Image src={Logo_White} alt="AMA Logo" width={200} height={120} />
+            <FooterLogo />
             <small className="block text-sm max-w-[250px] mt-6 font-light">
               Early Childhood Educator, Educational Consultant, Teacher Trainer
               and Phonics/Diction Expert.
@@ -129,7 +130,7 @@ const Footer = () => {
           <div style={{ flex: "2" }}>
             <h5 className="text-xl">
               <Link href="/early-years" className="hover:underline">
-                Portfolio
+                Learn
               </Link>
             </h5>
             <div className="flex flex-col gap-1 mt-4">
