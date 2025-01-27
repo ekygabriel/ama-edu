@@ -31,8 +31,9 @@ const Top = () => {
         mentorship and support with the development and implementation of the
         Early Years curriculum and Elocution and Diction Services to Schools. We
         provide guidance and support for schools, teachers, parents and
-        families, promoting their engagement in their learners’/children's early
-        learning, speaking and pronunciation.
+        families, promoting their engagement in their
+        learners&apos;/children&apos;s early learning, speaking and
+        pronunciation.
       </p>
       <p>
         Our YouTube channel - Early Years Learning TV also offers engaging
