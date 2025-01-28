@@ -85,12 +85,7 @@ const Footer = () => {
               >
                 Training and Consultation
               </Link>
-              <Link
-                className="hover:underline text-sm font-light"
-                href="/services/courses"
-              >
-                Continuous Professional Development
-              </Link>
+
               <Link
                 className="hover:underline text-sm font-light"
                 href="/services/mentorship"
@@ -136,13 +131,19 @@ const Footer = () => {
             <div className="flex flex-col gap-1 mt-4">
               <Link
                 className="text-sm font-light hover:underline"
-                href="/early-years/#eyfs"
+                href="/learn-with-ama#calendar"
               >
-                Early Years Learning
+                Training Schedule
+              </Link>
+              <Link
+                className="hover:underline text-sm font-light"
+                href="/learn-with-ama/courses"
+              >
+                Take a Video Course
               </Link>
               <Link
                 className="text-sm font-light hover:underline"
-                href="/early-years#events"
+                href="/learn-with-ama#programmes"
               >
                 Programmes
               </Link>

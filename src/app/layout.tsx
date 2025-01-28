@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { redhat, kumbh } from "./font";
 
 import "./globals.css";
+import { Suspense } from "react";
 export const metadata: Metadata = {
   title: {
     template: "%s - Anuoluwapo Michael-Ayeni",
@@ -25,9 +26,11 @@ export default function RootLayout({
       <body
         className={`${kumbh} ${redhat} flex flex-col min-h-[100vh] overflow-x-hidden `}
       >
-        <div className="grow OthersLayout">{children}</div>
-        <div id="modal"></div>
-        <div id="backdrop"></div>
+        <Suspense fallback={<div>Loading...</div>}>
+          <div className="grow OthersLayout">{children}</div>
+          <div id="modal"></div>
+          <div id="backdrop"></div>
+        </Suspense>
       </body>
     </html>
   );

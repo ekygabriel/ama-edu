@@ -23,7 +23,7 @@ const Calendar = () => {
             information, send us a message today.
           </p>
           <Button
-            href="https://wa.me/07066631594"
+            href="https://wa.link/7sjt7y"
             text="Send a Message"
             target="_blank"
           />

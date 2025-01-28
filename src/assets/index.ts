@@ -29,7 +29,6 @@ import Egg1 from "@/assets/images/services/egg1.webp";
 import Egg2 from "@/assets/images/services/egg2.webp";
 import Egg_BG from "@/assets/images/services/egg_bg.webp";
 import Anu2 from "@/assets/images/anu-2.webp";
-import Building from "@/assets/images/building.webp";
 import AnuHome from "@/assets/images/anu-home.webp";
 import AnuStanding from "@/assets/images/anu-standing.webp";
 import MCE from "@/assets/images/MCE.webp";
@@ -74,7 +73,6 @@ export {
   Conversations,
   LearnBanner,
   Omowunmi,
-  Building,
   NotFound,
   Collab,
   Integrity,
