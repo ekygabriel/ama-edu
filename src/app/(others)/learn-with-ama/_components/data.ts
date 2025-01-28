@@ -25,7 +25,8 @@ export const data = [
       "Watch new episodes of Conversations with AMA on YouTube every last Saturday of the month! Join Anuoluwapo Michael-Ayeni as she dives into important topics surrounding early childhood care and education. Featuring insightful discussions with expert guests, this show offers practical tips, strategies, and inspiration for educators, parents, and anyone passionate about shaping the future of young learners. Be sure to subscribe and watch our enriching conversations.",
     ],
     buttonText: "Watch Replays",
-    buttonLink: YouTubeLink,
+    buttonLink:
+      "https://youtube.com/playlist?list=PLqvYPtnAL6iOUOSCC4o_Q9kfLkekFUOia&si=igpU105EMPVH8Fnj",
     tag: "YouTube",
   },
   {
