@@ -5,7 +5,7 @@ import {
   YoutubeChannel,
 } from "@/assets";
 
-const whatsappLink = "https://wa.me/07066631594";
+const whatsappLink = "https://wa.link/7sjt7y";
 const YouTubeLink = "https://youtube.com/@earlyyearslearningtv";
 export const data = [
   {

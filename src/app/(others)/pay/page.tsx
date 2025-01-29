@@ -6,10 +6,10 @@ import { notFound, useRouter, useSearchParams } from "next/navigation";
 import Button from "@/components/form/Button";
 import courses from "@/data/courses";
 
-const ConstructionPage = () => {
+const PaymentPage = () => {
   const router = useRouter();
   const searchParams = useSearchParams().get("course");
-  // const courseTitle =
+
   const course = courses.find((course) => course.slug === searchParams);
 
   if (!course) {
@@ -99,4 +99,4 @@ const ConstructionPage = () => {
   );
 };
 
-export default ConstructionPage;
+export default PaymentPage;
