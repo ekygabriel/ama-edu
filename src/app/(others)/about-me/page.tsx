@@ -54,7 +54,7 @@ const AboutPage = () => {
               all facets of education for both children and educators.
             </p>
             <p>
-              Anuoluwapo Michael-Ayeni is also on of the co-founders of It’s
+              Anuoluwapo Michael-Ayeni is also one of the co-founders of It’s
               Learning Time, an innovative educational platform that provides
               engaging digital learning resources for parents and educators and
               creates impactful tools that enhance children’s learning outcomes

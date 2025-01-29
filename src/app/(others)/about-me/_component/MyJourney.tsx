@@ -18,12 +18,12 @@ const MyJourney = () => {
             the diverse learning needs of my students. Despite the limited
             resources provided by the school, I innovatively crafted my own
             teaching materials using charts and recycled products. I also
-            offered personalized support to each student, ensuring their
+            offered personalised support to each student, ensuring their
             individual learning requirements were met, while collaboratively
             working with other stakeholders.
           </p>
           <p>
-            My commitment to personalized education continued in subsequent
+            My commitment to personalised education continued in subsequent
             positions, where I taught Year 1 students. In these roles, I
             initiated after-school programs for students struggling with reading
             and continuously pursued professional development courses. This
@@ -47,9 +47,9 @@ const MyJourney = () => {
           </p>
           <p>
             Since then, my career has advanced as a Class Teacher and Year Group
-            Coordinator in Nursery, and later as a Reception Class Teacher and
-            presently a Nursery Manager, within International British settings
-            in Lagos. Working in schools affiliated with the Council of British
+            Coordinator in Nursery, and later as a Reception Class Teacher and a
+            Nursery Manager, within International British settings in Lagos.
+            Working in schools affiliated with the Council of British
             International Schools (COBIS) has provided me with numerous
             opportunities for local and international trainings, exposure to
             school inspections by COBIS and ISI/BSO, and preparation for lesson
@@ -58,20 +58,22 @@ const MyJourney = () => {
           </p>
           <p>
             During the COVID-19 pandemic in 2020, my school transitioned to
-            virtual learning, utilizing platforms like Edmodo, Google Classroom,
+            virtual learning, utilising platforms like Edmodo, Google Classroom,
             Zoom, and Google Meet. This shift required additional training and
             adaptation, after which I efficiently delivered high-quality online
             lessons. I developed lesson slides, worksheets, and pre-recorded
-            lessons using various technological tools.
+            lessons using various technological tools, video editing apps and
+            game-based learning platforms.
           </p>
           <p className="relative z-10">
             During this period, I offered my services to several schools and
             parents, providing training and private tutoring to those struggling
             with the demands of virtual learning. This experience led to the
             inception of AMA Educational Services, which evolved into Early
-            Years Learning NG. in 2021. My initiative focuses on consulting,
-            continuing professional development, mentorship, and providing
-            teaching resources, and it has continued to flourish ever since.
+            Years Learning NG in 2021 and AMA Learning Solutions in 2024. My
+            initiative focuses on consulting, continuing professional
+            development, mentorship, and providing teaching resources, and it
+            has continued to flourish ever since.
           </p>
         </div>
       </div>

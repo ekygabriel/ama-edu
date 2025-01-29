@@ -21,18 +21,19 @@ const CoursesPage = () => {
         parentHrefLabel="Learn with AMA"
         label="Video Courses"
       />
-      <ul className="pt-14 pb-40 flex gap-8 flex-wrap max-w-4xl justify-center mx-auto px-4">
+      <ul className="pt-14 pb-40 grid gap-4 sm:px-8 grid-cols-auto-fill-minmax max-w-[1200px] sm:mx-auto">
         {courses.map((course) => (
           <li
             key={course.title}
-            className="w-[350px] shadow-lg rounded-2xl overflow-hidden relative pb-20 h-maxfd"
+            className="shadow-lg rounded-2xl overflow-hidden relative pb-20 !max-w-[300px] mx-auto sm:max-w-none"
           >
             <Image
               src={course.img}
               alt={`${course.title}'s image`}
               width={300}
               height={300}
-              style={{ width: "100%" }}
+              sizes="400vw"
+              style={{ width: "100%", maxWidth: "100%" }}
             />
 
             <h4 className="text-xl p-3">{course.title}</h4>
@@ -69,7 +70,6 @@ const CoursesPage = () => {
             <div className="flex w-full justify-between absolute bottom-8 px-3 border-t pt-6">
               <Button text="Take Course" href={`/pay?course=${course.slug}`} />
               <b>₦ {course.price}</b>
-              {/* <b>₦ {course.price.toFixed(2)}</b> */}
             </div>
           </li>
         ))}

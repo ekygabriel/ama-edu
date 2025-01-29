@@ -23,9 +23,11 @@ const UpcomingEvents = () => {
             <Image
               src={item.img}
               alt={item.title}
-              width={150}
-              height={60}
-              className=""
+              width={300}
+              height={300}
+              className="sm:max-w-[250px] max-h-[300px] sm:max-h-none"
+              // className="w-[200px] h-[200px] sm:w-[150px] sm:h-[150px]"
+              sizes="400vw"
             />
             <div className="py-2 relative bg-white">
               <h5 className="text-xl font-semibold mb-3 px-4">{item.title}</h5>

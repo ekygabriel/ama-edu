@@ -68,8 +68,8 @@ const Footer = () => {
           >
             <FooterLogo />
             <small className="block text-sm max-w-[250px] mt-6 font-light">
-              Early Childhood Educator, Educational Consultant, Teacher Trainer
-              and Phonics/Diction Expert.
+              Early Childhood Educator, Educational Consultant, Elocutionist,
+              Teacher Trainer and Phonics/Diction Expert.
             </small>
           </div>
           <div style={{ flex: "2" }} className="lg:pl-10">

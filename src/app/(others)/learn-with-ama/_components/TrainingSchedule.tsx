@@ -18,7 +18,8 @@ const schedule = [
     duration: "1 Day",
   },
   {
-    title: "Advanced Mentorship for Early Years Practitioners",
+    title:
+      "Advanced Mentorship for Early Years Practitioners (Group Mentorship)",
     date: "25th Jan - 8th March, 26th Apr - 7th Jun, 25th Oct - 6th Dec",
     audience:
       "New intending or current early years practitioners and child minders.",
@@ -26,7 +27,7 @@ const schedule = [
     duration: "8 weeks",
   },
   {
-    title: "Advanced Mentorship for Early Years Leads",
+    title: "Advanced Mentorship for Early Years Leads (Group Mentorship)",
     date: "26th July - 6th Sept",
     audience: "Leaders, administrators, consultants etc.",
     mode: "Fully Virtual. Live Classes on Saturdays.",

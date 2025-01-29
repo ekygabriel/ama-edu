@@ -68,7 +68,7 @@ const WorkExperience = () => {
             <p className="text-sm leading-5 md:text-justify">
               As a certified Elocutionist, I am dedicated to helping children
               and adults master the English language with clarity and
-              confidence. Through personalized coaching, I empower my students
+              confidence. Through personalised coaching, I empower my students
               to articulate effectively, fostering communication skills that
               open doors to new opportunities.
             </p>

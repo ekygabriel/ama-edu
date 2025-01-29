@@ -120,7 +120,7 @@ const ForSchools = () => {
             ))}
           </ul>
           <p className="mb-10">
-            Click on the button below to request for school consultation
+            Click on the button below to request for our school consultation
             proposal.
           </p>
           <Button

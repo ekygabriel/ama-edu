@@ -16,6 +16,7 @@ import Consultation from "@/assets/images/services/consultation.webp";
 import Course1 from "@/assets/images/services/course1.webp";
 import Course2 from "@/assets/images/services/course2.webp";
 import Course3 from "@/assets/images/services/course3.webp";
+import Course4 from "@/assets/images/services/course4.webp";
 import TrainingGal1 from "@/assets/images/services/gal1.webp";
 import TrainingGal2 from "@/assets/images/services/gal2.webp";
 import TrainingGal3 from "@/assets/images/services/gal3.webp";
@@ -89,6 +90,7 @@ export {
   Course1,
   Course2,
   Course3,
+  Course4,
   Egg1,
   Egg2,
   Egg_BG,

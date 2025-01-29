@@ -1,4 +1,4 @@
-import { Course1, Course2, Course3 } from "@/assets";
+import { Course1, Course2, Course3, Course4 } from "@/assets";
 
 const courses = [
   {
@@ -17,9 +17,8 @@ const courses = [
       "30 days reading activity calendar.",
       "Phonics digital resources.",
       "2 one on one consultations.",
-      "Certificate of completion",
     ],
-    price: "10,000",
+    price: "20,000",
   },
   {
     img: Course2,
@@ -28,9 +27,8 @@ const courses = [
     info: "This course is for teachers who want to learn to teach children to read fluently using a blend of the Jolly Phonics and Letters and sounds program.",
     details: [
       "Phonics video course.",
-      "Resources.",
       "Phonics digital resources.",
-      "One on one consultations.",
+      "One on one consultation (30 mins).",
       "Certificate of completion",
     ],
     courseOutline: [
@@ -39,7 +37,7 @@ const courses = [
       "Teaching Spelling and Writing.",
       "Engaging Activities to Teach Sight Words.",
     ],
-    price: "10,000",
+    price: "15,000",
   },
   {
     img: Course3,
@@ -61,7 +59,29 @@ const courses = [
       "Working with parents and other Stakeholders",
       "Lesson Planning and Engagement in the 7 Areas of Learning.",
     ],
-    price: "30,000",
+    price: "40,000",
+  },
+  {
+    img: Course4,
+    title: "Nurturing Little Learners",
+    slug: "nurturing-little-learners",
+    info: "This course is for childminders and nannies who would like to be equipped with the knowledge and practical strategies to support children’s learning and development in their early years whether at home or in school.",
+    details: [
+      "Video Course",
+      "Weekly activity calendar",
+      "One on one Consultation (30 min)",
+      "Certificate of completion",
+    ],
+    courseOutline: [
+      "Understanding the Principles Childhood Development",
+      "Understanding Child Development Milestones",
+      "Creating a Stimulating and Language-Rich Environment",
+      "Supporting Play-Based Learning and Exploration",
+      "Encouraging Early Literacy and Numeracy Skills",
+      "Building Positive Relationships and Fostering Social-Emotional Development",
+      "Encouraging Positive Behaviour",
+    ],
+    price: "15,000",
   },
 ];
 export default courses;

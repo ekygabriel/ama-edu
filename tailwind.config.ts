@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        "auto-fill-minmax": "repeat(auto-fill, minmax(300px, 1fr))",
+      },
       fontFamily: {
         kumbh: ["var(--font-kumbh)", "sans-serif"],
         redhat: ["var(--font-redhat)", "sans-serif"],
